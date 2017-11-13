@@ -1,0 +1,127 @@
+/*** Header Layout including font and color of header background ***/
+
+header {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    font-family: 'Istok Web', sans-serif;
+    color: gold;
+}
+ 
+/*** Nav and lists CSS ***/
+
+nav {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+  }
+  
+nav li {
+    display: inline-block;
+}
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*** Link Margin ***/
+
+.links{
+    margin:0;
+    }
+
+/*** Photo Alignment ***/
+
+.photos{
+    padding-top: 80;
+}
+
+/*** Form display format ***/
+
+.form{
+    display:block;
+}
+
+/*** Video Embed positioning ***/
+
+.peanut {
+
+    max-width: 600px; 
+    max-height: 355px; 
+    position: auto;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    margin: auto; 
+
+}
+
+/*** IMG Sizing and Alignment ***/
+
+.img {
+    height: 400px;
+    width: 420px;
+    max-height: 100%;
+    max-width: 100%;
+    }
+
+/*** Head CSS and aligning ***/
+
+#Head {
+    position: absolute;
+    width: 100%;
+    background-color: lightskyblue;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.html {
+    margin:0;
+}
+
+/*** Light box positioning, sizing, and screen orientation ***/
+
+#overlay {
+    background:rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left: 0;
+    display:none;
+    text-align: top;
+  }
+  
+  #overlay img {
+    margin-top: 1%;
+    margin-left: 12%;
+    margin-bottom: 20%;
+  }
+  
+  #overlay p {
+   color:white; 
+  }
+
+  /*** Styling for Submission Page ***/
+
+  .submission {
+    color: gold;
+    font-size: 20;
+  }
